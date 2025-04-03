@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Console", Courier, monospace;
+  background-color: #0a231d;
+  color: #ffffff;
+}
+
+.container {
+  width: 100%;
+  min-height: 80vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.reelathos-logo {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  scale: auto;
+  max-width: 100%;
+  padding: 20px 15px;
+  width: 320px;
+  height: auto;
+  border-radius: 50px 25px 80px 40px;
+}
+
+.title {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 2.3rem;
+  margin-bottom: 5px;
+}
+label {
+  color: #0a0a23;
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+}
+.palindromo-div {
+  width: min(100vw, 450px);
+  min-height: 100px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: white;
+  box-shadow: 8px 10px 6px #324232;
+}
+.palindromo-btn {
+  width: 90px;
+  border: none;
+  padding: 8px;
+  border-radius: 15px;
+  background-color: #296d23;
+  color: #e4eec8;
+  cursor: pointer;
+}
+.palindromo-input {
+  height: 40px;
+  width: 280px;
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 10px;
+  border: none;
+  border-bottom: 2px solid #0b230a;
+}
+.palindromo-input:focus {
+  border-bottom: 3px solid #0b230a;
+}
+
+.palindromo-input::placeholder {
+  text-align: center;
+}
+
+.palindromo-definiton-div {
+  width: min(100vw, 420px);
+  height: 50px;
+  width: 580px;
+  text-align: center;
+  margin: 20px;
+}
+
+.palindromo-definition {
+  vertical-align: middle;
+  text-align: center;
+}
+/* .hidden {
+  display: none;
+} */
+.results-div {
+  overflow-y: auto;
+  word-wrap: break-word;
+  min-height: 50px;
+  color: black;
+}
+.user-input {
+  font-size: 1.4rem;
+  margin-top: 10px;
+  text-align: center;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <main class="container">
+    <img class="reelathos-logo" src="img/palindromo.jpeg" alt="ReelLathos Logo" />
+
+    <h1 class="title">¿Es un palindromo?</h1>
+    <div class="palindromo-div">
+      <label for="text-input">
+        Introduzca un texto para ver si es un palindromo
+      </label>
+      <input class="palindromo-input" id="text-input" value="" type="text" placeholder="Ingrese una frase o una palabra" />
+      <button class="palindromo-btn" id="check-btn">Enter</button>
+      <div class="results-div hidden" id="result">
+
+      </div>
+    </div>
+    <div class="palindromo-definiton-div">
+      <p class="palindromo-definiton">
+        <span role="img" aria-label="Left-Pointing-MagnifyingGlass">&#128269;</span>
+        Un <dfn>palindromo</dfn> es una palabra o frase cuyas letras están dispuestas de tal manera que resulta la misma leída
+        de izquierda a derecha que de derecha a izquierda; por ejemplo: anilina; dábale arroz a la zorra el abad
+        <span role="img" aria-label="Right-Pointing-MagnifyingGlass">&#128270;</span>
+      </p>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
